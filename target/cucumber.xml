@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="5" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="19" time="179.563">
-    <testcase classname="As a user I want to abble to my contact information through a google form." name="Error messages for mandatory fields without information" time="18.81">
-        <system-out><![CDATA[Given Im in the contact form page...........................................passed
+<testsuite errors="0" failures="5" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="19" time="168.528">
+<testcase classname="As a user I want to abble to my contact information through a google form." name="Error messages for mandatory fields without information" time="10.933">
+<system-out><![CDATA[Given Im in the contact form page...........................................passed
 When I select the option 2 in the first question............................passed
 And Inform all fields except for the "Name".................................passed
 And click on the submit button..............................................passed
 Then a error message should be presented in the "Name"......................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="As a user I want to abble to my contact information through a google form." name="Error messages for mandatory fields without information 2" time="8.116">
-        <system-out><![CDATA[Given Im in the contact form page...........................................passed
+</testcase>
+<testcase classname="As a user I want to abble to my contact information through a google form." name="Error messages for mandatory fields without information 2" time="9.74">
+<system-out><![CDATA[Given Im in the contact form page...........................................passed
 When I select the option 2 in the first question............................passed
 And Inform all fields except for the "Email"................................passed
 And click on the submit button..............................................passed
 Then a error message should be presented in the "Email".....................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="As a user I want to abble to my contact information through a google form." name="Error messages for mandatory fields without information 3" time="9.565">
-        <system-out><![CDATA[Given Im in the contact form page...........................................passed
+</testcase>
+<testcase classname="As a user I want to abble to my contact information through a google form." name="Error messages for mandatory fields without information 3" time="9.361">
+<system-out><![CDATA[Given Im in the contact form page...........................................passed
 When I select the option 2 in the first question............................passed
 And Inform all fields except for the "Address"..............................passed
 And click on the submit button..............................................passed
 Then a error message should be presented in the "Address"...................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="As a user I want to abble to my contact information through a google form." name="Error messages when not selecting the third option in the first question" time="18.254">
-        <failure message="The error Please select the 3rd option is not present in the page" type="java.lang.AssertionError"><![CDATA[Given Im in the contact form page...........................................passed
+</testcase>
+<testcase classname="As a user I want to abble to my contact information through a google form." name="Error messages when not selecting the third option in the first question" time="9.071">
+<failure message="The error Please select the 3rd option is not present in the page" type="java.lang.AssertionError"><![CDATA[Given Im in the contact form page...........................................passed
 When I select the option 0 in the first question............................passed
 And Inform all fields.......................................................passed
 And click on the submit button..............................................passed
@@ -38,9 +38,9 @@ java.lang.AssertionError: The error Please select the 3rd option is not present 
 	at com.playtech.steps.Steps.aErrorMessageShouldBePresented(Steps.java:116)
 	at ✽.a error message "Please select the 3rd option" should be presented(file:///C:/Users/Usuario/Documents/Filipe/QA/pthomework/src/test/resources/features/form.feature:21)
 ]]></failure>
-    </testcase>
-    <testcase classname="As a user I want to abble to my contact information through a google form." name="Error messages when not selecting the third option in the first question 2" time="10.295">
-        <failure message="The error Please select the 3rd option is not present in the page" type="java.lang.AssertionError"><![CDATA[Given Im in the contact form page...........................................passed
+</testcase>
+<testcase classname="As a user I want to abble to my contact information through a google form." name="Error messages when not selecting the third option in the first question 2" time="8.94">
+<failure message="The error Please select the 3rd option is not present in the page" type="java.lang.AssertionError"><![CDATA[Given Im in the contact form page...........................................passed
 When I select the option 1 in the first question............................passed
 And Inform all fields.......................................................passed
 And click on the submit button..............................................passed
@@ -53,9 +53,9 @@ java.lang.AssertionError: The error Please select the 3rd option is not present 
 	at com.playtech.steps.Steps.aErrorMessageShouldBePresented(Steps.java:116)
 	at ✽.a error message "Please select the 3rd option" should be presented(file:///C:/Users/Usuario/Documents/Filipe/QA/pthomework/src/test/resources/features/form.feature:21)
 ]]></failure>
-    </testcase>
-    <testcase classname="As a user I want to abble to my contact information through a google form." name="Error messages when not selecting the third option in the first question 3" time="11.14">
-        <failure message="The error Please select the 3rd option is not present in the page" type="java.lang.AssertionError"><![CDATA[Given Im in the contact form page...........................................passed
+</testcase>
+<testcase classname="As a user I want to abble to my contact information through a google form." name="Error messages when not selecting the third option in the first question 3" time="9.275">
+<failure message="The error Please select the 3rd option is not present in the page" type="java.lang.AssertionError"><![CDATA[Given Im in the contact form page...........................................passed
 When I select the option 3 in the first question............................passed
 And Inform all fields.......................................................passed
 And click on the submit button..............................................passed
@@ -68,9 +68,9 @@ java.lang.AssertionError: The error Please select the 3rd option is not present 
 	at com.playtech.steps.Steps.aErrorMessageShouldBePresented(Steps.java:116)
 	at ✽.a error message "Please select the 3rd option" should be presented(file:///C:/Users/Usuario/Documents/Filipe/QA/pthomework/src/test/resources/features/form.feature:21)
 ]]></failure>
-    </testcase>
-    <testcase classname="As a user I want to abble to my contact information through a google form." name="Error messages when not selecting the third option in the first question 4" time="8.221">
-        <failure message="The error Please select the 3rd option is not present in the page" type="java.lang.AssertionError"><![CDATA[Given Im in the contact form page...........................................passed
+</testcase>
+<testcase classname="As a user I want to abble to my contact information through a google form." name="Error messages when not selecting the third option in the first question 4" time="10.164">
+<failure message="The error Please select the 3rd option is not present in the page" type="java.lang.AssertionError"><![CDATA[Given Im in the contact form page...........................................passed
 When I select the option 4 in the first question............................passed
 And Inform all fields.......................................................passed
 And click on the submit button..............................................passed
@@ -83,9 +83,9 @@ java.lang.AssertionError: The error Please select the 3rd option is not present 
 	at com.playtech.steps.Steps.aErrorMessageShouldBePresented(Steps.java:116)
 	at ✽.a error message "Please select the 3rd option" should be presented(file:///C:/Users/Usuario/Documents/Filipe/QA/pthomework/src/test/resources/features/form.feature:21)
 ]]></failure>
-    </testcase>
-    <testcase classname="As a user I want to abble to my contact information through a google form." name="Error messages when not selecting the third option in the first question 5" time="8.182">
-        <failure message="The error Please select the 3rd option is not present in the page" type="java.lang.AssertionError"><![CDATA[Given Im in the contact form page...........................................passed
+</testcase>
+<testcase classname="As a user I want to abble to my contact information through a google form." name="Error messages when not selecting the third option in the first question 5" time="8.652">
+<failure message="The error Please select the 3rd option is not present in the page" type="java.lang.AssertionError"><![CDATA[Given Im in the contact form page...........................................passed
 When I select the option 5 in the first question............................passed
 And Inform all fields.......................................................passed
 And click on the submit button..............................................passed
@@ -98,51 +98,51 @@ java.lang.AssertionError: The error Please select the 3rd option is not present 
 	at com.playtech.steps.Steps.aErrorMessageShouldBePresented(Steps.java:116)
 	at ✽.a error message "Please select the 3rd option" should be presented(file:///C:/Users/Usuario/Documents/Filipe/QA/pthomework/src/test/resources/features/form.feature:21)
 ]]></failure>
-    </testcase>
-    <testcase classname="As a user I want to abble to my contact information through a google form." name="Clear the selection on the first question" time="6.45">
-        <system-out><![CDATA[Given Im in the contact form page...........................................passed
+</testcase>
+<testcase classname="As a user I want to abble to my contact information through a google form." name="Clear the selection on the first question" time="8.339">
+<system-out><![CDATA[Given Im in the contact form page...........................................passed
 When I select the option 0 in the first question............................passed
 And click on the link for clear selection...................................passed
 Then no option in the first question should be selected.....................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="As a user I want to abble to my contact information through a google form." name="Clear the selection on the first question 2" time="6.761">
-        <system-out><![CDATA[Given Im in the contact form page...........................................passed
+</testcase>
+<testcase classname="As a user I want to abble to my contact information through a google form." name="Clear the selection on the first question 2" time="6.904">
+<system-out><![CDATA[Given Im in the contact form page...........................................passed
 When I select the option 1 in the first question............................passed
 And click on the link for clear selection...................................passed
 Then no option in the first question should be selected.....................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="As a user I want to abble to my contact information through a google form." name="Clear the selection on the first question 3" time="7.454">
-        <system-out><![CDATA[Given Im in the contact form page...........................................passed
+</testcase>
+<testcase classname="As a user I want to abble to my contact information through a google form." name="Clear the selection on the first question 3" time="7.983">
+<system-out><![CDATA[Given Im in the contact form page...........................................passed
 When I select the option 2 in the first question............................passed
 And click on the link for clear selection...................................passed
 Then no option in the first question should be selected.....................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="As a user I want to abble to my contact information through a google form." name="Clear the selection on the first question 4" time="7.458">
-        <system-out><![CDATA[Given Im in the contact form page...........................................passed
+</testcase>
+<testcase classname="As a user I want to abble to my contact information through a google form." name="Clear the selection on the first question 4" time="7.436">
+<system-out><![CDATA[Given Im in the contact form page...........................................passed
 When I select the option 3 in the first question............................passed
 And click on the link for clear selection...................................passed
 Then no option in the first question should be selected.....................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="As a user I want to abble to my contact information through a google form." name="Clear the selection on the first question 5" time="6.153">
-        <system-out><![CDATA[Given Im in the contact form page...........................................passed
+</testcase>
+<testcase classname="As a user I want to abble to my contact information through a google form." name="Clear the selection on the first question 5" time="8.318">
+<system-out><![CDATA[Given Im in the contact form page...........................................passed
 When I select the option 4 in the first question............................passed
 And click on the link for clear selection...................................passed
 Then no option in the first question should be selected.....................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="As a user I want to abble to my contact information through a google form." name="Clear the selection on the first question 6" time="6.132">
-        <system-out><![CDATA[Given Im in the contact form page...........................................passed
+</testcase>
+<testcase classname="As a user I want to abble to my contact information through a google form." name="Clear the selection on the first question 6" time="7.511">
+<system-out><![CDATA[Given Im in the contact form page...........................................passed
 When I select the option 5 in the first question............................passed
 And click on the link for clear selection...................................passed
 Then no option in the first question should be selected.....................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="As a user I want to abble to my contact information through a google form." name="Clear all the fields in the" time="11.237">
-        <system-out><![CDATA[Given Im in the contact form page...........................................passed
+</testcase>
+<testcase classname="As a user I want to abble to my contact information through a google form." name="Clear all the fields in the" time="10.725">
+<system-out><![CDATA[Given Im in the contact form page...........................................passed
 When I select the option 3 in the first question............................passed
 And Inform all fields.......................................................passed
 And click on the clear form.................................................passed
@@ -150,38 +150,38 @@ And click on the clear form allert..........................................pass
 Then no option in the first question should be selected.....................passed
 And all fields should be blank..............................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="As a user I want to abble to my contact information through a google form." name="Error messages for a invalid e-mail" time="7.857">
-        <system-out><![CDATA[Given Im in the contact form page...........................................passed
+</testcase>
+<testcase classname="As a user I want to abble to my contact information through a google form." name="Error messages for a invalid e-mail" time="8.573">
+<system-out><![CDATA[Given Im in the contact form page...........................................passed
 When I select the option 3 in the first question............................passed
 And Inform all fields.......................................................passed
 And Change the e-mail for "abc##"...........................................passed
 And click on the submit button..............................................passed
 Then a error message about incorrect format should be presented.............passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="As a user I want to abble to my contact information through a google form." name="Sending the form with non-mandatory fields without information" time="10.381">
-        <system-out><![CDATA[Given Im in the contact form page...........................................passed
+</testcase>
+<testcase classname="As a user I want to abble to my contact information through a google form." name="Sending the form with non-mandatory fields without information" time="8.889">
+<system-out><![CDATA[Given Im in the contact form page...........................................passed
 When I select the option 3 in the first question............................passed
 And Inform all fields except for the "Phone number".........................passed
 And click on the submit button..............................................passed
 Then the form should be submited............................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="As a user I want to abble to my contact information through a google form." name="Sending the form with non-mandatory fields without information 2" time="7.904">
-        <system-out><![CDATA[Given Im in the contact form page...........................................passed
+</testcase>
+<testcase classname="As a user I want to abble to my contact information through a google form." name="Sending the form with non-mandatory fields without information 2" time="8.132">
+<system-out><![CDATA[Given Im in the contact form page...........................................passed
 When I select the option 3 in the first question............................passed
 And Inform all fields except for the "Comments".............................passed
 And click on the submit button..............................................passed
 Then the form should be submited............................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="As a user I want to abble to my contact information through a google form." name="Sending the form with all fields filled" time="8.575">
-        <system-out><![CDATA[Given Im in the contact form page...........................................passed
+</testcase>
+<testcase classname="As a user I want to abble to my contact information through a google form." name="Sending the form with all fields filled" time="8.95">
+<system-out><![CDATA[Given Im in the contact form page...........................................passed
 When I select the option 3 in the first question............................passed
 And Inform all fields.......................................................passed
 And click on the submit button..............................................passed
 Then the form should be submited............................................passed
 ]]></system-out>
-    </testcase>
+</testcase>
 </testsuite>

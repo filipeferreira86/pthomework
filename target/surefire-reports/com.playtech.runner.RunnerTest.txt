@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: com.playtech.runner.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 169.738 sec <<< FAILURE!
+Error messages when not selecting the third option in the first question #1(As a user I want to abble to my contact information through a google form.)  Time elapsed: 9.097 sec  <<< FAILURE!
+java.lang.AssertionError: The error Please select the 3rd option is not present in the page
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.playtech.steps.Steps.aErrorMessageShouldBePresented(Steps.java:116)
+	at ?.a error message "Please select the 3rd option" should be presented(file:///C:/Users/Usuario/Documents/Filipe/QA/pthomework/src/test/resources/features/form.feature:21)
+
+Error messages when not selecting the third option in the first question #2(As a user I want to abble to my contact information through a google form.)  Time elapsed: 8.956 sec  <<< FAILURE!
+java.lang.AssertionError: The error Please select the 3rd option is not present in the page
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.playtech.steps.Steps.aErrorMessageShouldBePresented(Steps.java:116)
+	at ?.a error message "Please select the 3rd option" should be presented(file:///C:/Users/Usuario/Documents/Filipe/QA/pthomework/src/test/resources/features/form.feature:21)
+
+Error messages when not selecting the third option in the first question #3(As a user I want to abble to my contact information through a google form.)  Time elapsed: 9.296 sec  <<< FAILURE!
+java.lang.AssertionError: The error Please select the 3rd option is not present in the page
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.playtech.steps.Steps.aErrorMessageShouldBePresented(Steps.java:116)
+	at ?.a error message "Please select the 3rd option" should be presented(file:///C:/Users/Usuario/Documents/Filipe/QA/pthomework/src/test/resources/features/form.feature:21)
+
+Error messages when not selecting the third option in the first question #4(As a user I want to abble to my contact information through a google form.)  Time elapsed: 10.172 sec  <<< FAILURE!
+java.lang.AssertionError: The error Please select the 3rd option is not present in the page
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.playtech.steps.Steps.aErrorMessageShouldBePresented(Steps.java:116)
+	at ?.a error message "Please select the 3rd option" should be presented(file:///C:/Users/Usuario/Documents/Filipe/QA/pthomework/src/test/resources/features/form.feature:21)
+
+Error messages when not selecting the third option in the first question #5(As a user I want to abble to my contact information through a google form.)  Time elapsed: 8.663 sec  <<< FAILURE!
+java.lang.AssertionError: The error Please select the 3rd option is not present in the page
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.playtech.steps.Steps.aErrorMessageShouldBePresented(Steps.java:116)
+	at ?.a error message "Please select the 3rd option" should be presented(file:///C:/Users/Usuario/Documents/Filipe/QA/pthomework/src/test/resources/features/form.feature:21)
+
